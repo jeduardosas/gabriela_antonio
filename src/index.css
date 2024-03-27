@@ -1,0 +1,50 @@
+:root{
+  --fuentePrincipal:"Nanum Myeongjo", serif;
+  --cursiva: "Great Vibes", cursive;
+  --color_principal:rgb(32 48 125);
+  --color_secundario:#8CAFC6;
+  --color_detalles: #C2E0FA;
+  --color_timeline:#cdbeb0;
+  --back-color:#fff;
+  --grisSombra: #bdbdbd;
+}
+
+body{
+  height: 100vh;
+  margin: 0; 
+  background-color: #f6f8fa;
+  font-family: var(--fuentePrincipal);
+  font-size: 20px;
+  color: var(--color_principal);
+  
+}
+
+h1,h2,h3,p{
+  margin: 0;
+}
+button{
+  border:none;
+}
+a{
+  text-decoration: none;
+}
+.centrar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sombra{
+  box-shadow: 10px 10px 10px var(--grisSombra);
+}
+
+.notfound{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notfound p{
+  font-size: 20px;
+}

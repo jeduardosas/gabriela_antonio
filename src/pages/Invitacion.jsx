@@ -18,7 +18,7 @@ import '/@/styles/invitacion.css'
 
 
 const Invitacion = () => {
-  const song = '/music/wedding_march.mp3'
+  const song = '/music/song.mp3'
   
   //VALIDACION DE LOS PARAMS DE LA URL
   const location = useLocation();
@@ -41,21 +41,21 @@ const Invitacion = () => {
   return (
     <div className="centrar">
 
-      {/* <div className="img-fondo">
-        <img loading="lazy" className="img-fondo-1" src="/img/img-1.webp" alt="iimg-fondo" />
-        <img loading="lazy" className="img-fondo-2" src="/img/img-2.webp" alt="iimg-fondo" />
-      </div> */}
+      <div className="img-fondo">
+        <img loading="lazy" className="img-fondo-1" src="/img/img-1.png" alt="iimg-fondo" />
+        <img loading="lazy" className="img-fondo-2" src="/img/img-2.png" alt="iimg-fondo" />
+      </div>
 
       {/* REPRODUCTOR */}
       
-      {/* <div className="reproductor">
+      <div className="reproductor">
         <ReactAudioPlayer 
           className="reproductor" 
           src={song} 
           autoPlay={true}
           preload="auto"
           controls/>
-      </div>  */}
+      </div> 
       <Header />
 
       <div id="datosSection" className="datos">

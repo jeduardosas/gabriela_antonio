@@ -4,22 +4,23 @@
 }
 
 /*I M A G E N E S   D E   F O N D O */
+
 .img-fondo-1,
 .img-fondo-2{
   position: fixed;
   z-index: -100;
 }
 .img-fondo-1{
-  top: -100px;
-  left: -50px;
+  top: -40px;
+  left: -80px;
 
 }
 .img-fondo-2{
-  bottom:-50px;
-  right: -80px;
+  bottom:-80px;
+  right: -60px;
 }
 .img-fondo img{
-  max-width: 300px;
+  width: 400px;
 }
 /* H E A D E R */
 
@@ -76,7 +77,7 @@
 .datos-nombre-b,
 .datos-nombre-g{
   /* text-transform: uppercase; */
-  font-size: 80px;
+  font-size: 65px;
   text-align: center;
   /* line-height:.8 ; */
   font-family: var(--cursiva);
@@ -116,6 +117,10 @@
   border:none;
 }
 @media (min-width: 768px) {
+  .datos-nombre-b,
+  .datos-nombre-g{
+  font-size: 80px;
+}
   .datos-fecha_div p{
     font-size: 60px;
   } 

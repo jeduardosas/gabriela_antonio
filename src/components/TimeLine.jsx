@@ -27,22 +27,16 @@ const TimeLine = () => {
       icon:'wedding-vows_white'
     },
 
-     {
-      id:3,
-      time:'10:30 PM',
-      name:'baile con familiares',
-      icon:'music_white'
-    },
 
     {
-      id:4,
+      id:3,
       time:'11:00 PM',
       name:'Cena',
       icon:'cutlery_white'
     },
 
     {
-      id:5,
+      id:4,
       time:'...Hasta Amanecernos',
       name:'el baile sigue y sigue',
       icon:'party'

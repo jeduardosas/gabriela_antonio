@@ -1,6 +1,7 @@
 :root{
-  --fuentePrincipal:"Nanum Myeongjo", serif;
+  --fuentePrincipal:"Playfair Display", serif;
   --cursiva: "Parisienne", cursive;
+  --fuenteSecundaria:"Nanum Myeongjo", serif;
   --color_principal:rgb(32 48 125);
   --color_secundario:#8CAFC6;
   --color_detalles: #C2E0FA;

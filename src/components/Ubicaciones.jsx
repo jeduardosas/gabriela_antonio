@@ -20,11 +20,11 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible}) => {
           </div>
 
           <div>
-            <p className='card-hora'>21:00 Horas</p>
+            <p className='card-hora'>22:00 Horas</p>
           </div>
 
           <div className='card-section'>
-            <p className='card-nombre'>Maluma´s</p>
+            <p className='card-nombre'>MALUMA'S Eventos</p>
             <p className='card-contenido'>Blvd H.l colegio Militar s/n</p>
             <p className='card-contenido'>Col. Cda. Club de Leones</p>
             <p className='card-from'>Iguala de la Independencia, Guerrero.</p>

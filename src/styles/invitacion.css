@@ -11,16 +11,16 @@
   z-index: -100;
 }
 .img-fondo-1{
-  top: -40px;
-  left: -80px;
+  top: -30px;
+  left: -70px;
 
 }
 .img-fondo-2{
-  bottom:-80px;
-  right: -60px;
+  bottom:-60px;
+  right: -40px;
 }
 .img-fondo img{
-  width: 400px;
+  width: 300px;
 }
 /* H E A D E R */
 
@@ -107,6 +107,7 @@
 }
 .datos-fecha_div p{
   display: block;
+  font-family: var(--fuenteSecundaria);
   font-size: 38px;
   border-right: var(--color_principal) solid;
   padding: 0 10px;
@@ -392,7 +393,7 @@
 }
 
 .lugares p{
-
+  font-family: var(--fuenteSecundaria);
   font-size: 200px;  
   text-align: center;
   font-weight: bold;

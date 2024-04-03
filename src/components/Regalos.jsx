@@ -34,9 +34,9 @@ const Regalos = () => {
               <p>
                 Nuestro mejor regalo es compartir este  
               </p>
-              <p>gran día, si deseas obsequiearnos algo,</p>
+              <p>gran día, si deseas obsequiarnos algo,</p>
               <p>
-                podemos sugerir la opcion.
+                podemos sugerir la opción.
               </p>
           </div>
           <h3 className='regalos-card-title'>Lluvia de Sobres</h3>
@@ -49,8 +49,8 @@ const Regalos = () => {
           </div>
           <div className='regalos-card-content'>
             <p>La lluvia de sobres es la tradición</p>
-            <p className='regalos-card-item'>de regalar dinero en efectivo dentro de un sobre</p>
-            <p>el día del evento.</p>
+            <p className='regalos-card-item'>de regalar dinero en efectivo dentro de un sobre el día del evento.</p>
+            
           </div>
           {/* <div className='regalos-card-button'>
             <button className='regalos-card-button'><a target='_blank' href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51407974">Ir a Mesa de Regalos</a></button>

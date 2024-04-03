@@ -49,8 +49,9 @@ const Slider = () => {
 
   return(
     <div style={{width:'95vw',margin:'auto'}}>
-      <h3 className='slider-title'>Galeria </h3>
+      <h3 className='slider-title'>Galería </h3>
       <ImageGallery
+        lazyLoad={true}
         items={images}
         showPlayButton={false}
         showFullscreenButton={true}

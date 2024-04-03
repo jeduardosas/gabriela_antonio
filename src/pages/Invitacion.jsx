@@ -1,6 +1,7 @@
 
 import { useLocation, Navigate } from "react-router-dom";
 import ReactAudioPlayer from "react-audio-player";
+import Monograma from "../components/Monograma";
 import CountDown from "/@/components/ContDown";
 import Header from "/@/components/Header";
 import Datos from "/@/components/Datos";
@@ -28,7 +29,7 @@ const Invitacion = () => {
   if (pases === "") {
     return <Navigate to="/notfound" />;
   }
-  if(pases<0 || pases >6){
+  if(pases<0 || pases >10){
     return <Navigate to="/notfound" />
   }
   //VARIABLES PARA MANEJAR LAS ANIMACIONES
@@ -42,8 +43,8 @@ const Invitacion = () => {
     <div className="centrar">
 
       <div className="img-fondo">
-        <img loading="lazy" className="img-fondo-1" src="/img/img-1.png" alt="iimg-fondo" />
-        <img loading="lazy" className="img-fondo-2" src="/img/img-2.png" alt="iimg-fondo" />
+        <img loading="lazy" className="img-fondo-1" src="/img/img-1.webp" alt="iimg-fondo" />
+        <img loading="lazy" className="img-fondo-2" src="/img/img-2.webp" alt="iimg-fondo" />
       </div>
 
       {/* REPRODUCTOR */}
@@ -56,6 +57,8 @@ const Invitacion = () => {
           preload="auto"
           controls/>
       </div> 
+
+      <Monograma />
       <Header />
 
       <div id="datosSection" className="datos">

@@ -1,0 +1,27 @@
+.monograma{
+  margin-top: 100px;
+  position: relative;
+  display: inline-block;
+}
+
+.monograma-img-div img{
+  width: 300px;
+  height: 300px;
+  
+}
+
+.monograma-text-div{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.monograma-text-div p{
+  font-size: 80px;
+  margin: 0;
+  font-family: var(--fuenteSecundaria);
+}
